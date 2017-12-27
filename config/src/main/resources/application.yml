@@ -1,0 +1,14 @@
+server:
+  port: 6011
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#安全属性#
+management:
+  security:
+    enabled: false

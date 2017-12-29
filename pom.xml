@@ -5,7 +5,7 @@
 
 	<groupId>org.qhs</groupId>
 	<artifactId>myself_sites</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<modules>
 		<module>config</module>
 		<module>dome</module>
